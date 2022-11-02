@@ -1,0 +1,32 @@
+/*Tablet nhỏ(480 x 640)*/
+.container1, .section-title1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+
+}
+.activity, .language, .skill{
+  grid-column: unset;
+  grid-row: unset;
+}
+.certificate1 img{
+  width: 100%;
+}
+.img1, .img2, .img3{
+  flex-wrap: wrap;
+}
+
+
+.container9{
+  width: 100%;
+
+}
+
+
+.cv{
+  padding-bottom: 30px;
+padding-top:10px;
+font-size: 13px;}
+
+
+.thutle{width: 100%;}

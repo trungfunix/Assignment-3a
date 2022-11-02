@@ -1,0 +1,54 @@
+/*điện thoạit nhỏ(480 x 640)*/
+
+h1{color: black;}
+
+
+.cv{padding-bottom: 40px;}
+
+#nav-bar{
+background-color: white;
+display: block;
+padding: 10px;
+
+
+
+}
+.activity, .language, .skill{
+  grid-column: unset;
+  grid-row: unset;
+}
+
+a {
+  display: block;
+  width: 80px;
+  background-color: white;
+}
+
+.khoangcach1{ 
+  padding-left: 100px;
+  
+}
+
+.container2{display: grid;
+grid-template-columns: 100%;}
+
+
+.container1, .certificate1, .section-title1{
+  grid-template-columns: 100%;
+  gap: 10px;
+}
+.container3 a{
+  width: 100%;
+}
+.certificate1 img{
+  width: 100%;
+}
+.img1, .img2, .img3{
+  flex-wrap: wrap;
+}
+
+
+.container9{
+  width: 100%;
+  
+}
